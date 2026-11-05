@@ -1,0 +1,18 @@
+# Reference only. Enter real values in Render's Environment dashboard.
+# rc3-task4-hook
+TEST_REPO=your-account/rc3-review-sandbox
+TARGET_BRANCH=main
+LIVE_MODE=false
+GH_REVIEW_TOKEN=
+JIRA_URL=https://your-site.atlassian.net
+JIRA_EMAIL=
+JIRA_TOKEN=
+JIRA_AC_FIELD=customfield_12345
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_MODEL=
+LLM_KEY=
+# WEBHOOK_SECRET, RESULTS_KEY and REVIEW_DB are set by render.yaml.
+# rc3-task4-web
+REVIEW_API_URL=https://your-actual-webhook-service.onrender.com
+# Optional separate public-read token for higher Track B quota.
+ANALYZER_TOKEN=
